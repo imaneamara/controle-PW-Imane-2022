@@ -1,1 +1,26 @@
+/************ENTETE**********/
+.aucentre {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+    background-color: transparent;
+    color : #6e6e70;
+}
 
+.aucentre1 {
+    background-color: transparent;
+    color : #989899;
+}
+
+.aucentre1 h1 {
+    background-color: transparent;
+    color : #d3d3d4;
+    text-align : center;
+    text-decoration: underline;
+}
+
+.aucentre2 {
+    background-color: transparent;
+    color : #989899;
+}
