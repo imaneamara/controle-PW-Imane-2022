@@ -1,45 +1,55 @@
+.enormeconteneur {
+    margin-top : 2%;
+    display : flex;
+    flex-direction : row;
+    gap : 5px;
+    justify-content : space-around;
+    height : 60%;
+}
+
 /************CENTRE**********/
 .aucentre {
-    grid-column-start: 2;
-    grid-column-end: five;
-    grid-row-start: row1-start;
-    grid-row-end: 3;
-    background-color: transparent;
-    color : #6e6e70;
+    background-color: #4f4f51;
 }
 
 .aucentre1 {
-    background-color: transparent;
-    color : #989899;
+    background-color : #a6a6aa;
 }
 
 .aucentre1 h1 {
-    background-color: transparent;
     color : #d3d3d4;
     text-align : center;
     text-decoration: underline;
 }
 
 .aucentre2 {
-    background-color: transparent;
-    color : #989899;
+    background-color: #a6a6aa;
 }
 
-/***********BAS***********/
 
-.enbas {
-    grid-column: 2;
-    grid-row: 4;  
-}
 
 /*********AGAUCHE**********/
 .agauche {
-    grid-column: 1;
-    grid-row: 2 / 5;
+    background-color : #a6a6aa;
+
+
+}
+
+.agauche h1 {
+    color : #d3d3d4;
+}
+
+.agauche p {
+    text-align: left;
 }
 
 /********ADROITE********/
 .adroite {
-  grid-column: 3;
-  grid-row: 3;
+  
+}
+
+/***********BAS***********/
+.enbas {
+    flex-wrap:wrap;
+    text-align: center;
 }
